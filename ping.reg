@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\ping]
+"URL Protocol"=""
+@="URL:ping Protocol"
+
+[HKEY_CLASSES_ROOT\ping\shell]
+
+[HKEY_CLASSES_ROOT\ping\shell\open]
+
+[HKEY_CLASSES_ROOT\ping\shell\open\command]
+@="cmd.exe /k python "<path>/<to>/<main.py>" %1"
+
